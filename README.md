@@ -16,7 +16,7 @@ Download and Install SQL Server Tools from [https://docs.microsoft.com/en-us/sql
 All of the above can also be downloaded and installed using SSDT from [https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer)
 
 ## Configuration
-(images\1_ServiceAccount.png)
+![](images/1_ServiceAccount.png)
 
 ### Open Report Server Configuration Manager
 
