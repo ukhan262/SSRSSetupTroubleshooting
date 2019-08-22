@@ -16,18 +16,22 @@ Download and Install SQL Server Tools from [https://docs.microsoft.com/en-us/sql
 All of the above can also be downloaded and installed using SSDT from [https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer)
 
 ## Configuration
-![](images/1_ServiceAccount.png)
 
 ### Open Report Server Configuration Manager
 
-### Service Account
+#### Service Account
 
 Choose the built in account or use managed service account.
 
+![](images/1_ServiceAccount.png)
 
 ### Web Service URL
 
 By default, port 80 should get configured and port 443 can be configured if needed in the Advanced… settings.
+
+![](images/2_WebServiceURL.png)
+
+![](images/2_WebServiceURL_Advanced.png)
 
 ### Database
 
@@ -37,13 +41,21 @@ Default naming convention as follow: ReportServer and ReportServerTempDB
 
 Choose the built in account or use managed service account.
 
+![](images/3_Database.png)
+
  
 #### Click on &#39;Change Database&#39;
 
 Create a new report server database
-Connect to the sql server instane 
+![](images/3_Database_ChangeDB.png)
+
+Connect to the SQL server instance
+![](images/3_Database_ChangeDB_2.png)
+
 Name the DB 
-Next
+![](images/3_Database_ChangeDB_3.png)
+
+Finish
 
 ### Web Portal URL
 
@@ -51,11 +63,14 @@ Virtual Directory: Reports
 
 By default, URL should be the server name /Virtual Directory
 
+![](images/4_WebPortalURL.png)
+
 
 ### Email Settings
 
 Configure as needed
 
+![](images/5_EmailConfig.png)
 
 ### Execution Account
 
@@ -91,7 +106,9 @@ Go to Encryption Keys
 
 Click on Backup
 
- Select File Location and set a password (required)
+Select File Location and set a password (required)
+
+![](images/6_Backup_EncryptionKeys.png)
 
 
 #### Report Server Backup
@@ -136,7 +153,9 @@ Go to Encryption Keys
 
 Click on Restore
 
- Select File Location and enter the password (required)
+Select File Location and enter the password (required)
+
+![](images/7_Restore_EncryptionKeys.png)
 
 
 ## Changing from Local Accounts to Group Managed Service Account
