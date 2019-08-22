@@ -52,7 +52,7 @@ Create a new report server database
 Connect to the SQL server instance
 ![](images/3_Database_ChangeDB_2.png)
 
-Name the DB 
+Name the DB
 ![](images/3_Database_ChangeDB_3.png)
 
 Finish
